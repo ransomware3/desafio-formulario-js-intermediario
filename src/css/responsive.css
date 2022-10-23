@@ -1,0 +1,11 @@
+@media(max-width: 817px){
+
+    .container-principal{
+        flex-direction: column;
+    }
+
+    .texto-mensagem{
+        text-align: center;
+        margin: 60px 0 30px 0;
+    }
+}

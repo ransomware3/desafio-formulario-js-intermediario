@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="formulário com validação JS">
+        <meta name="author" content="Natan Iori">
+        <title>Desafio validação de formulário - JavaScript</title>
+
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/responsive.css">
+    </head>
+    <body>
+        <main class="container-principal">
+            <div class="texto-mensagem">
+                <h1 class="titulo">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+                <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+            </div>
+
+            <form class="formulario" action="">
+                <input required class="input nome" placeholder="Nome completo *" type="text" name="info">
+                <p class="campo-obrigatorio" name="campo-obrigatorio">campo obrigatório</p>
+
+                <input required class="input email" placeholder="Email *" type="email" name="info">
+                <p class="campo-obrigatorio" name="campo-obrigatorio">campo obrigatório</p>
+
+                <input required class="input telefone" placeholder="Telefone *" type="tel" name="info">
+                <p class="campo-obrigatorio" name="campo-obrigatorio">campo obrigatório</p>
+
+                <textarea required class="campo-mensagem" placeholder="Mensagem *" name="info"></textarea>
+                <p class="campo-obrigatorio" name="campo-obrigatorio">campo obrigatório</p>
+
+                <p class="alerta">*campos obrigatórios</p>
+                <button type="submit" id="btn-enviar" class="btn-enviar">Enviar</button>
+            </form>
+        </main>
+
+        <script src="src/js/index.js"></script>
+    </body>
+</html>
