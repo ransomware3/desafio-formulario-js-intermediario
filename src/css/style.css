@@ -10,7 +10,6 @@ body{
     width: 100%;
     height: 88vh;
     background: url(../images/bg-repeat.jpg);
-    background-repeat: repeat-x;
     display: flex;
     justify-content: center;
     align-items: center;
