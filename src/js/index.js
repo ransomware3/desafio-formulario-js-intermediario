@@ -22,8 +22,6 @@ camposDoForm.forEach((item, indice, array) => {
         }
     }
 
-    alertaObrigatorio.forEach((indice) => {})
-
     alertaObrigatorio[indice].style.display = "none"
 
     campo.addEventListener('input', () => {

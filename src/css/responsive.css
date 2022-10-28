@@ -2,7 +2,6 @@
 
     .container-principal{
         flex-direction: column;
-        background-repeat: repeat-x;
     }
 
     .texto-mensagem{
